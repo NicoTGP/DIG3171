@@ -5,8 +5,10 @@ title: Distant Reading Project
 
 {% include nav.html %}
 
+This was the results of putting the Wikipedia page of the NES to Voyant
 ![first](voyant.png)
 
+This was the results of putting the Wikipedia page of the NES to Copilot
 ![second](pilot2.png)
 
 
