@@ -5,6 +5,10 @@ title: Distant Reading Project
 
 {% include nav.html %}
 
+![first](voyant.png)
+
+![second](pilot2.png)
+
 
 # Distant Reading Assignment 
 
