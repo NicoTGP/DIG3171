@@ -102,7 +102,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 </style>
     </head>
     <body>
-		<p> <a href="https://nicotgp.github.io/DIG3171/">Home</a>
+		<p> <a href="https://nicotgp.github.io/DIG3171/">Home</a></p>
 <p> This template was copied from <a href="https://iloveepoetry.org/creative/tracery2htmltemplate.html">Leonardo Flores's page</a> and modified for this class.</p>
 		<div id="title-container">Video Games!</div>
 
@@ -118,7 +118,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
             <div class="modal-content">
                 <span class="close">×</span>
                 <p> Video games have cemented themselves in the modern era and are unavoidable in this day and age. It is placed on par with such media as film, books, music, etc. An interactive art form that combines images, music
-					and everything in between to offer a unique past time/experience. Articles like <a href="https://miscellanynews.org/2022/09/07/arts/video-games-are-art-and-im-not-sure-if-thats-still-controversial/"> this </a> href to highlight 
+					and everything in between to offer a unique past time/experience. Articles like <a href="https://miscellanynews.org/2022/09/07/arts/video-games-are-art-and-im-not-sure-if-thats-still-controversial/">this one</a> to highlights
 					how video games, despite having been around for less than half the time as film, still aren't treated or viewed as pieces of art and cultural cornerstones, especially in the modern digital age. 
 				</p> 
             </div>
@@ -184,7 +184,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     "origin": [
         "#Intro# #Game1# is often considered among the best and impactful games of all time, considering its #Impact#; without it, #possibility# Another infamous title is #Game2#, which made strives in the platforming genre, specifically how #Impact2#; all this to say that #ending#."
     ]
-}
+	
+};
 
 function expandRule(rule) {
   var result = rule;
@@ -218,7 +219,7 @@ function handleTag(tag) {
 
 function displayString() {
     var randomIndex = Math.floor(Math.random() * obj.origin.length);
-    document.getElementById('text-container').innerHTML = generateString(obj.origin[randomIndex]);
+    document.getElementById('text-container').innerHTML = expandRule(obj.origin[randomIndex]);
 }
 
     displayString();  // call once at the beginning
