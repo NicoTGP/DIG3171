@@ -64,7 +64,7 @@ technological world” (Berenbach).
 
 
 
-(add HTML code to do the hanging indentation, as seen below)
+
 
 
 
@@ -97,7 +97,7 @@ technological world” (Berenbach).
 <p class="works-cited">
 
 
-  Lastname, Firstname. <em>Book Title</em>. Press, 2025.
+
 
 
 </p>
@@ -108,8 +108,6 @@ technological world” (Berenbach).
 
 <p class="works-cited">
 
-
-  Doe, Jane. "Journal Article.” <em>Journal Name</em>, vol. 15, no. 2, 2025, pp. 45–67.
 
 
 </p>
