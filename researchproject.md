@@ -1,29 +1,33 @@
 ---
+
+
+
 layout: default
+
+
 title: Research Project
+
+
 ---  
 
-<style>
-  .bold-text {
 
-    My Final Research Project
-    
-    font-weight: bold; /* or a numerical value like 600, 700, 900 */
-  }
-</style>
+
+
+
+# My Final Research Project  
+
+
 
 
 <a href="Research Project.html">The Story</a>
 
 
-<style>
-  .bold-text {
 
-   Abstract
-    
-    font-weight: bold; /* or a numerical value like 600, 700, 900 */
-  }
-</style>
+# Abstract
+
+
+
+
 
 “Human creativity is responsive in the dynamic operation of interrelated technologies that
 constitute an interconnected technological world” (Blok). What are video games? They can
@@ -49,7 +53,7 @@ placing players in situations of failure and struggle—and it is through encoun
 own limitations that one gains insight into one’s motivations, attitudes, and identity” (Juul).
 From Pong to Wii Sports, from Dig Dug to Minecraft. Evolution gives us the impression that
 these games are immensely different and unrelated, but when you break it down, it’s all
-based on a vantage point. Only in the world of gaming that a concept like Space Invaders
+based on a vantage point. Only in the world of gaming does a concept like Space Invaders
 lead to Galaga, which can lead to Star Fox, which can lead to No Man’s Sky. “With
 Improved technology, human creativity flourishes, and becomes abundant. In our
 ecological concept of human-technology creation … human creativity is responsive in the
@@ -57,13 +61,55 @@ dynamic operation of interrelated technologies that constitute an interconnected
 technological world” (Berenbach). 
 
 
+
+
+
 (add HTML code to do the hanging indentation, as seen below)
 
+
+
+
+
 <style>
+
+
   .works-cited {
+
+
     margin-left: 2em;
+
+
     text-indent: -2em;
+
+
     line-height: 1.5;
+
+
   }
+
+
 </style>
 
+
+
+
+
+<p class="works-cited">
+
+
+  Lastname, Firstname. <em>Book Title</em>. Press, 2025.
+
+
+</p>
+
+
+
+
+
+<p class="works-cited">
+
+
+  Doe, Jane. "Journal Article.” <em>Journal Name</em>, vol. 15, no. 2, 2025, pp. 45–67.
+
+
+</p>
